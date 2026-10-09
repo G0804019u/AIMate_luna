@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(npx expo run:android:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx expo install:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm show:*)",
+      "Bash(npm install:*)",
+      "Bash(npm audit:*)",
+      "WebFetch(domain:docs.expo.dev)",
+      "WebFetch(domain:kirillzyusko.github.io)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebSearch",
+      "Bash(curl -s https://exp.host/--/api/v2/versions)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('Latest Expo version:', d.get\\('expoVersion', 'unknown'\\)\\)\")",
+      "Bash(npx expo-doctor *)"
+    ]
+  }
+}
